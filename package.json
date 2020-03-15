@@ -1,0 +1,37 @@
+{
+  "name": "r-rn-snippets",
+  "displayName": "r-rn-snippets",
+  "description": "React & React-Native Snippets",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghacosta/react-reactnative-snippets"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
